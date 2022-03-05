@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Page - Streal</title>
+    <meta name="description" content="." />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Streal" />
+    <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" href="https://use.typekit.net/grh5akv.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/follow.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function() {
+            var e,
+                t = document.createElement("style");
+            return (
+                (t.innerHTML = "root: { --tmp-var: bold; }"),
+                document.head.appendChild(t),
+                (e = !!(
+                    window.CSS &&
+                    window.CSS.supports &&
+                    window.CSS.supports("font-weight", "var(--tmp-var)")
+                )),
+                t.parentNode.removeChild(t),
+                e
+            );
+        };
+        supportsCssVars() ||
+            alert(
+                "Please view this demo in a modern browser that supports CSS Variables."
+            );
+    </script>
+</head>
+
+<body class="demo-4 loading">
+    <main>
+        <div class="message">Some message for mobile (if needed).</div>
+            <div class="frame" style="padding: 2rem;">
+                <a href="../"><span><img src="logo.svg" width="70"></span></a>
+            </div>
+            <div class="frame" style="padding: 2rem;">
+                <!-- <h1 class="frame__title">3D Folded Layout</h1> -->
+                <div class="frame__links">
+                    <a href="../Artists/" class="content__headline">Featured<br>Artists→</a>
+                </div>
+            </div>
+        <div class="content" style="margin-top: 2rem;">
+            <div class="fold-content" id="base-content">
+                <!-- CONTENT INSIDE HERE -->
+                <br>
+                <br>
+                <h2 class="content__headline">Here's What We're All About</h2>
+                <p class="content__type">
+                    We’re a digital networking platform, born  out of the desire of Kenyan artists to be independent and drive their own journey the way they see best as well as earn through their craft. We want our artists to compete at a better playing field and their music accepted all over.<br>
+                    We are 100% independent and are here to help solo musicians, artists, bands, DJs, performers, producers, and creators who record music at home or in the studio make a living doing what they love. 
+                </p>
+                <img class="content__img" src="img/18.jpg" alt="Some image" />
+                <h2 class="content__headline">Too Good To Be True?</h2>
+                <p class="content__type">
+                    Our digital space is an extremely user-friendly platform enabling artists to release unlimited music. Therefore, you own and sell your music, retaining 100% rights and earn 100% of your earnings to your fans.
+                </p>
+                <img class="content__img" src="img/19.jpg" alt="Some image" />
+                <h2 class="content__headline">Build Your Audience</h2>
+                <p class="content__type">
+                    Direct engagement with your listeners all over the world and ensuring they are with you through your entire journey.
+                </p>
+                <img class="content__img" src="img/20.jpg" alt="Some image" />
+                <h2 class="content__headline">Collaborating Just Got A Lot Better</h2>
+                <p class="content__type">
+                    We are telling the African artists stories the African way. With our digital space you artists are  able to connect and collaborate with other artists whether in the same genre or different.
+                </p>
+                <img class="content__img" src="img/21.jpg" alt="Some image" />
+                <h2 class="content__headline">For Your Eyes Only</h2>
+                <p class="content__type">
+                    Track your music’s performance and delve into streaming insights, download numbers and listener demographic data from your personal Streal dashboard to help you plan the best next steps for your career.
+                </p>
+                <img class="content__img" src="img/18.jpg" alt="Some image" />
+                <h2 class="content__headline">And Finally, Go Get That Bag! $$$</h2>
+                <p class="content__type">
+                    We build unique online stores and help you run your creative business i.e selling your music merchandise and any souvenir for your fans thus maximizing your income potential. You design, we print and ship it to your fans and send you the profit.
+                </p>
+
+                <br><br>
+                <h2 class="content__headline">Whoa Slow Down There Buddy</h2>
+                <p class="content__type">
+                    <a href="#">Got Questions? Well We've Got Answers.</a><br>
+                    <a href="#">Blog.</a><br>
+                    <a href="#">Don't Ghost Us. Keep In Touch :)</a>
+                </p>
+            </div>
+            <div class="screen">
+                <div class="folds" id="folds">
+                    <div class="fold fold-center" id="fold-center"></div>
+                    <div class="fold-3d fold-3d-top top-wrapper">
+                        <div class="fold fold-top" id="fold-top"></div>
+                    </div>
+                    <div class="fold-3d fold-3d-bottom bottom-wrapper">
+                        <div class="fold fold-bottom" id="fold-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-debug" id="btn-debug">See Planes</button>
+        </div>
+    </main>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/follow.js"></script>
+</body>
+
+</html>
